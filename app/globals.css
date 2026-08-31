@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --gold: #c79a3b;
+  --gold-dark: #9b762d;
+  --ink: #111111;
+  --muted: #6b6b6b;
+  --surface: #f7f7f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--gold);
+  color: #ffffff;
+}
